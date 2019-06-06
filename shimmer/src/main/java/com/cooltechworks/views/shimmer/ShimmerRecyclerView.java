@@ -20,7 +20,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.Nullable;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -48,12 +47,12 @@ public class ShimmerRecyclerView extends RecyclerView {
         init(context, null);
     }
 
-    public ShimmerRecyclerView(Context context, @Nullable AttributeSet attrs) {
+    public ShimmerRecyclerView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context, attrs);
     }
 
-    public ShimmerRecyclerView(Context context, @Nullable AttributeSet attrs, int defStyle) {
+    public ShimmerRecyclerView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init(context, attrs);
     }
